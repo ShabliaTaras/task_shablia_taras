@@ -1,0 +1,135 @@
+@media (max-width: 1150px) {
+  .news__item {
+    max-width: 360px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 1115px) {
+  .news__item {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 816px) {
+  .profile {
+    max-width: 100%;
+    width: 100%;
+    &__stats-description {
+      margin-bottom: 20px;
+    }
+  }
+  .feed__profile {
+    display: block;
+  }
+  .news__items {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__top-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile {
+    max-width: 300px;
+    width: 100%;
+  }
+  .profile__text {
+    margin-left: 10px;
+  }
+  .profile__name {
+    font-size: 20px;
+  }
+  .profile__avatar img {
+    width: 100px;
+    height: 100px;
+  }
+  .header__profile {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header__profile-name {
+    padding-right: 12px;
+  }
+  .header__profile-name span {
+    display: block;
+    padding-top: 20px;
+    margin-left: 14px;
+  }
+
+  .header__profile-img {
+    margin: 10px 0 20px 33px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .header__profile-img::after {
+    display: none;
+  }
+  .header__profile-icons {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+  .header__profile-icons__present,
+  .header__profile-icons__notification,
+  .header__profile-icons__look {
+    margin-right: 10px;
+  }
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-nav__button {
+    display: none;
+  }
+  .header__tabs-item {
+    display: block;
+    text-align: center;
+    margin-right: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .header__tabs__list {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+
+  .news__item-title {
+    padding: 14px 10px 18px 10px;
+  }
+  .news__item-info {
+    padding-bottom: 12px;
+  }
+  .news__item-name {
+    display: none;
+  }
+  .content__toggle {
+    padding: 10px 0;
+  }
+
+  .news__item-subtitle .share {
+    font-size: 12px;
+  }
+
+  .profile__stats-synths,
+  .profile__stats-followers,
+  .profile__stats-following {
+    margin-right: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 330px) {
+  .news__item {
+    max-width: 310px;
+  }
+}

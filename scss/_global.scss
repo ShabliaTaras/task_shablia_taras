@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #ecf1f8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3e4056;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1168px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
